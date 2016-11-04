@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'comics.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql-psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'comicsdb',
         'USER': 'comicuser',
         'PASSWORD': 'password',
