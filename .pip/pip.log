@@ -1,0 +1,465 @@
+------------------------------------------------------------
+/usr/bin/pip run on Fri Nov  4 16:02:41 2016
+Downloading/unpacking django-toolbelt
+  Getting page https://pypi.python.org/simple/django-toolbelt/
+  URLs to search for versions for django-toolbelt:
+  * https://pypi.python.org/simple/django-toolbelt/
+  Analyzing links from page https://pypi.python.org/simple/django-toolbelt/
+    Found link https://pypi.python.org/packages/f0/d5/c7be87a43b5b15181134a4b035c226110266acd6a4b6079ba3b797f697fa/django-toolbelt-0.0.1.tar.gz#md5=d7961695c78448fd56d9c220f3bd8349 (from https://pypi.python.org/simple/django-toolbelt/), version: 0.0.1
+  Downloading django-toolbelt-0.0.1.tar.gz
+  Downloading from URL https://pypi.python.org/packages/f0/d5/c7be87a43b5b15181134a4b035c226110266acd6a4b6079ba3b797f697fa/django-toolbelt-0.0.1.tar.gz#md5=d7961695c78448fd56d9c220f3bd8349 (from https://pypi.python.org/simple/django-toolbelt/)
+  Running setup.py (path:/tmp/pip_build_root/django-toolbelt/setup.py) egg_info for package django-toolbelt
+    running egg_info
+    creating pip-egg-info/django_toolbelt.egg-info
+    writing requirements to pip-egg-info/django_toolbelt.egg-info/requires.txt
+    writing pip-egg-info/django_toolbelt.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/django_toolbelt.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/django_toolbelt.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/django_toolbelt.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/django_toolbelt.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/django_toolbelt.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_root/django-toolbelt has version 0.0.1, which satisfies requirement django-toolbelt
+Requirement already satisfied (use --upgrade to upgrade): django in /usr/local/lib/python2.7/dist-packages (from django-toolbelt)
+Downloading/unpacking psycopg2 (from django-toolbelt)
+  Getting page https://pypi.python.org/simple/psycopg2/
+  URLs to search for versions for psycopg2 (from django-toolbelt):
+  * https://pypi.python.org/simple/psycopg2/
+  Analyzing links from page https://pypi.python.org/simple/psycopg2/
+    Skipping https://pypi.python.org/packages/14/04/c449c231d35b1d26ebd902aea4f9237da744cd3a0bd9ff89caf616a6e6fc/psycopg2-2.6.2-cp26-none-win_amd64.whl#md5=3ee8bcfeefb573b7a68000bd25f73f43 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/19/79/35c7596bab4456f3610c12ec542a94d51c6781ced587d1d85127210b879b/psycopg2-2.0.10.tar.gz#md5=2dc60d0fd90ad681e1e9106edef34e97 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.10
+    Found link https://pypi.python.org/packages/1e/71/8929172068cbc3d3c7288bf888a7df5862a28d67ed61ad9b4c7aa5cf8be8/psycopg2-2.4.3.tar.gz#md5=5f67ca0c8b6c1ac5c4afd82811e0facc (from https://pypi.python.org/simple/psycopg2/), version: 2.4.3
+    Skipping https://pypi.python.org/packages/1f/84/a2fffb87348bc688d70bcdc24e761b06f48d958e1c1adfc3fa9eb3f4379c/psycopg2-2.6.1-cp27-none-win32.whl#md5=089acf7f1a8349c6308106bec896c762 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/20/84/aaaf44c339a3b51196b8b1d0928899cbc02e1583ec455b6777011fdb63b0/psycopg2-2.6.1-cp32-none-win32.whl#md5=c8a704a73f0ea6369ea74a5a24e8f8db (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/22/09/63d5da7375c267e208bbadf56b51699d85cb7b3a9096817eeea500a27b3b/psycopg2-2.5.1.tar.gz#md5=1b433f83d50d1bc61e09026e906d84c7 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.1
+    Found link https://pypi.python.org/packages/22/fa/5ddcafc7387c1534c59eb3ffcdb9ab2af106fd3b104e6df191b6c55718af/psycopg2-2.5.3.tar.gz#md5=09dcec70f623a9ef774f1aef75690995 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.3
+    Skipping https://pypi.python.org/packages/2a/34/849e0491130bf2f67d72826ad64cfe8d9dc4e322b42ba99ab77dd96d970f/psycopg2-2.6.2-cp33-none-win_amd64.whl#md5=60816e4ffadd258f3bd1b5c3da62ecfe (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/2c/5a/8334a55459289cf8d7485a42bcb2dbe0dab5162973ef66a96baee5107593/psycopg2-2.6.1-cp33-none-win32.whl#md5=f438d2c01fbaa8f9d0cb150154448a9f (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/2d/d7/496da11d7c81971870ddd36800419c4f84e8f6208aac5eabedf9f7748729/psycopg2-2.0.11.tar.gz#md5=eec2a45bcea75a00cbf20a15ab1b8bae (from https://pypi.python.org/simple/psycopg2/), version: 2.0.11
+    Skipping https://pypi.python.org/packages/2e/40/8ab9a8d99b7abd2b95858872fee6894a3eb4fc361692abc02e94091aa54b/psycopg2-2.6.1-cp26-none-win_amd64.whl#md5=66fda625af6267f020abc06a66afe75b (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/30/b9/629418a0fdc84506cfb9005ac066bb409b40661d2bfde6fc083d93237b27/psycopg2-2.6.2-cp27-none-win32.whl#md5=be33931d712a47275c3f4a373059f7ea (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/32/0c/2f4da04ae2a66d71eff37f19fce67506ad28f887851cd1c1cca35ba08b36/psycopg2-2.2.0.tar.gz#md5=4a69436dc8efbfe2859ae3aeed85d03e (from https://pypi.python.org/simple/psycopg2/), version: 2.2.0
+    Found link https://pypi.python.org/packages/36/77/894a5dd9f3f55cfc85682d3e6473ee5103d8d418b95baf4019fad3ffa026/psycopg2-2.4.5.tar.gz#md5=075e4df465e9a863f288d5bdf6e6887e (from https://pypi.python.org/simple/psycopg2/), version: 2.4.5
+    Found link https://pypi.python.org/packages/3a/7a/968afcb86b1958ae963a3aaa42c561e3ed2c2d4a8b773622b03856a16248/psycopg2-2.0.13.tar.gz#md5=f520260595f4fcf035d26cfd57a75f19 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.13
+    Skipping https://pypi.python.org/packages/47/ed/5bd02bf1a7f78823f8a708beb3656f7c3ad935fb013c7063ff5f67848a52/psycopg2-2.6.1-cp26-none-win32.whl#md5=a849b57608acf6ae26db67cf6b7667b5 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/49/fe/edd5a96ece520bf6522e27360f0aa66305e8cafa177c3bf5d5418a6b0741/psycopg2-2.6.2-cp26-none-win32.whl#md5=24ece1e5ea08083289e564b2b864a5a6 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/50/48/32927cbc99633613704950be5013fc144aa0f451a5e0616635a934d94a62/psycopg2-2.3.2.tar.gz#md5=11e8021a4fda49faa15495f8bea65f4d (from https://pypi.python.org/simple/psycopg2/), version: 2.3.2
+    Found link https://pypi.python.org/packages/59/aa/4d74a5dc32a89d622c1fa896a86683b488ef255f06d4b27231e12e6076f7/psycopg2-2.4.6.tar.gz#md5=79d7f05e67bf70a0ecc6e9103ccece5f (from https://pypi.python.org/simple/psycopg2/), version: 2.4.6
+    Skipping https://pypi.python.org/packages/5e/45/de485228f46a2487da8e774fa2dbd772e7e03e65a3c31a322a224806e734/psycopg2-2.6.2-cp35-none-win_amd64.whl#md5=c8101dfc2a2c2e6eb7e2054c8c0208b2 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/63/3e/a4a35761eb4595fff89e63347b4f8e79c2095782fa5bc016a6dfb18b21ac/psycopg2-2.2.2.tar.gz#md5=571af2ad9dfeb522ee5f8553278a4c38 (from https://pypi.python.org/simple/psycopg2/), version: 2.2.2
+    Found link https://pypi.python.org/packages/63/c3/802668cb3cfc2880c2a8364623e7105a0257724a2612bb66ec733aaddb8c/psycopg2-2.5.4.tar.gz#md5=25216543a707eb33fd83aa8efb6e3f26 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.4
+    Found link https://pypi.python.org/packages/68/0a/459df8dcbcc118ca435e9567abceaab919706908d52139e503f6396c4935/psycopg2-2.3.0.tar.gz#md5=0b52101b47f1e73001c6412d9a476222 (from https://pypi.python.org/simple/psycopg2/), version: 2.3.0
+    Found link https://pypi.python.org/packages/6a/8d/ee5c330823d527a5cd14c833063f825211d7b5de6e4897f72e250c107d85/psycopg2-2.0.12.tar.gz#md5=5c8080d0d0568479f041bb8534caf1f8 (from https://pypi.python.org/simple/psycopg2/), version: 2.0.12
+    Skipping https://pypi.python.org/packages/6c/b4/d5bf17145954a3c8e80e3601d8eaf486f058ae09688910f1f0a22cb6b1d2/psycopg2-2.6.2-cp33-none-win32.whl#md5=7d7dbd8e6203e2e757b46d77fcb30eee (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/6f/91/890c6f954e2d09d26b266a24468570c6227de61ac6f64926c48000db0a6e/psycopg2-2.4.4.tar.gz#md5=639e014ea9ce3aa3306724f12d16d79b (from https://pypi.python.org/simple/psycopg2/), version: 2.4.4
+    Found link https://pypi.python.org/packages/70/91/345f8eb32dc333331510e1adad858f7a1478d3a1e4aae05ee188985c6b17/psycopg2-2.4.2.tar.gz#md5=58cfd294d28b7e8ef059d72085d71ac2 (from https://pypi.python.org/simple/psycopg2/), version: 2.4.2
+    Found link https://pypi.python.org/packages/7b/a8/dc2d50a6f37c157459cd18bab381c8e6134b9381b50fbe969997b2ae7dbc/psycopg2-2.6.2.tar.gz#md5=4a392949ba31a378a18ed3e775a4693f (from https://pypi.python.org/simple/psycopg2/), version: 2.6.2
+    Skipping https://pypi.python.org/packages/7b/ed/82f31122dcc502d8f43c208a74eaa2b9ff39421aaab1ff8d61547639a474/psycopg2-2.6.1-cp33-none-win_amd64.whl#md5=632ab3d538a8239b619d434c5e17baf5 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/82/f8/6c80beb1b58f01f52dcdfa52bc1668caa4e3fc4927e9230edc40afa98c05/psycopg2-2.4.1.tar.gz#md5=4e79c822ab75dd89d931ee627c66032f (from https://pypi.python.org/simple/psycopg2/), version: 2.4.1
+    Skipping https://pypi.python.org/packages/84/50/ff71daf3e32a8bff56ac661eff9226d035abaf45fe1af007cfb2134970b3/psycopg2-2.6.1-cp32-none-win_amd64.whl#md5=e29046e7095483ecacac9e3390318254 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/84/7e/7256298bf7064238e63b9380cf424f776a4d2a87e387c9a9bd1bc5ea0fbc/psycopg2-2.5.tar.gz#md5=facd82faa067e99b80146a0ee2f842f6 (from https://pypi.python.org/simple/psycopg2/), version: 2.5
+    Skipping https://pypi.python.org/packages/85/bb/7ab5d5b040d6c8a26180acb864f50c1887f27e02e9fb4e94f1f730a4e01b/psycopg2-2.6.2-cp35-none-win32.whl#md5=9355dc0c57491e4e42bc610428570994 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/86/fd/cc8315be63a41fe000cce20482a917e874cdc1151e62cb0141f5e55f711e/psycopg2-2.6.1.tar.gz#md5=842b44f8c95517ed5b792081a2370da1 (from https://pypi.python.org/simple/psycopg2/), version: 2.6.1
+    Skipping https://pypi.python.org/packages/8f/80/20bdb48cfccaf31be57f7ae4b5165d7bb669cfaae5a42eaf00d55b2bf39b/psycopg2-2.6.2-cp34-none-win32.whl#md5=819bcec9a26fb1877090cf60faf5bfc4 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/9b/60/f4c79e73a69ded145880bcf4f98eeed741af12c62c5ddc89b754602b1807/psycopg2-2.5.5.tar.gz#md5=1404a6cc0108eed5d7dd0c1dc9a1c074 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.5
+    Skipping https://pypi.python.org/packages/a4/0e/29d29dceca6e465804ae612bc711a4741599ac849cf0a99acdbf53838581/psycopg2-2.6.2-cp27-none-win_amd64.whl#md5=08d618f1c5a4db211481e59102cc16f8 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/b5/37/b6e759f1f6a0fd32ad0e1b2576bf94cfa252710cad66e155f47fc04ba744/psycopg2-2.6.1-cp27-none-win_amd64.whl#md5=a8d7808e7c67e5bc0b6088a56045d2d2 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/b7/90/23af1a90f06dfa012a4ae829821b3161344a9e447358841779d027f14bd7/psycopg2-2.6.1-cp34-none-win_amd64.whl#md5=4c95328c20e00efc66f0046823f6d1d0 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/ba/29/bb6c465a38f6ba070ad4f4b17797ccc345dcd2cd42eb2f262aa75d86fa52/psycopg2-2.6.2-cp32-none-win32.whl#md5=0e9dca689b2395dea2498b3b82923b37 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/c3/f3/5519551f02ae70fc51f4e608e7b44d59a408fe3264fec4afeea37b8ea317/psycopg2-2.5.2.tar.gz#md5=53d81793fbab8fee6e732a0425d50047 (from https://pypi.python.org/simple/psycopg2/), version: 2.5.2
+    Found link https://pypi.python.org/packages/cd/7c/6acf5aacd347f3dc1398eca0e2123c35a48efb07617d4d9578e9cd79a1a7/psycopg2-2.3.1.tar.gz#md5=15d1c7f821f3a0306955d6cde3e762af (from https://pypi.python.org/simple/psycopg2/), version: 2.3.1
+    Found link https://pypi.python.org/packages/ce/2d/e9e65ee32ef2657028109bd5a1c1ece97e409ebf790b6ee286aae2c6b890/psycopg2-2.4.tar.gz#md5=24f4368e2cfdc1a2b03282ddda814160 (from https://pypi.python.org/simple/psycopg2/), version: 2.4
+    Skipping https://pypi.python.org/packages/d3/bd/f989a3be8cd9fa696471ca399c005c903c3a4b840c419784fb27c0c62ae8/psycopg2-2.6.2-cp32-none-win_amd64.whl#md5=66243f1c0a3f0365489d84d0e9111e63 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/dd/c7/9016ff8ff69da269b1848276eebfb264af5badf6b38caad805426771f04d/psycopg2-2.6.tar.gz#md5=fbbb039a8765d561a1c04969bbae7c74 (from https://pypi.python.org/simple/psycopg2/), version: 2.6
+    Found link https://pypi.python.org/packages/de/c4/fdfb801035bd7da9e1ce98169d48ca2d6dee5b4361e349afbba40b3d7a5d/psycopg2-2.2.1.tar.gz#md5=70b50773aefe5fb371ff4a018382012f (from https://pypi.python.org/simple/psycopg2/), version: 2.2.1
+    Found link https://pypi.python.org/packages/e0/1c/f0843f50a69fba3db880e9b267d36f6709bbf31a36fc46b82f75e8975ede/psycopg2-2.0.14.tar.gz#md5=30136c7753acc9cbdc36cc5c2448fdee (from https://pypi.python.org/simple/psycopg2/), version: 2.0.14
+    Skipping https://pypi.python.org/packages/f0/34/894f8f486196fdb15d376f77a0102b25628ec0ac71538ed019b3ea93b907/psycopg2-2.6.1-cp34-none-win32.whl#md5=9d90c554f68cfabed7fdb90107e9d464 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+    Skipping https://pypi.python.org/packages/fe/23/c67030ab4a43655d10b62acc658829054a97a147819a81094b1e9673e592/psycopg2-2.6.2-cp34-none-win_amd64.whl#md5=26ca03d4f4f65c75a530824981a60df6 (from https://pypi.python.org/simple/psycopg2/) because it is not compatible with this Python
+  Using version 2.6.2 (newest of versions: 2.6.2, 2.6.1, 2.6, 2.5.5, 2.5.4, 2.5.3, 2.5.2, 2.5.1, 2.5, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4, 2.3.2, 2.3.1, 2.3.0, 2.2.2, 2.2.1, 2.2.0, 2.0.14, 2.0.13, 2.0.12, 2.0.11, 2.0.10)
+  Downloading from URL https://pypi.python.org/packages/7b/a8/dc2d50a6f37c157459cd18bab381c8e6134b9381b50fbe969997b2ae7dbc/psycopg2-2.6.2.tar.gz#md5=4a392949ba31a378a18ed3e775a4693f (from https://pypi.python.org/simple/psycopg2/)
+  Running setup.py (path:/tmp/pip_build_root/psycopg2/setup.py) egg_info for package psycopg2
+    running egg_info
+    creating pip-egg-info/psycopg2.egg-info
+    writing pip-egg-info/psycopg2.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/psycopg2.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/psycopg2.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_root/psycopg2 has version 2.6.2, which satisfies requirement psycopg2 (from django-toolbelt)
+Downloading/unpacking gunicorn (from django-toolbelt)
+  Getting page https://pypi.python.org/simple/gunicorn/
+  URLs to search for versions for gunicorn (from django-toolbelt):
+  * https://pypi.python.org/simple/gunicorn/
+  Analyzing links from page https://pypi.python.org/simple/gunicorn/
+    Found link https://pypi.python.org/packages/00/ab/fedf573b667c7de82b15576158c250c5ce5853a51577c23df0a0a896076d/gunicorn-0.17.3.tar.gz#md5=fc2002ad630b4f4f81c3618fba520a82 (from https://pypi.python.org/simple/gunicorn/), version: 0.17.3
+    Found link https://pypi.python.org/packages/02/a0/206efff381e2b61c038310a772debae8a4288593bb34901a9cb5aac7192c/gunicorn-17.5.tar.gz#md5=32e4477ac20e1061c9860f466cc87a14 (from https://pypi.python.org/simple/gunicorn/), version: 17.5
+    Skipping https://pypi.python.org/packages/02/b3/23273452586e4923af43b2805292900ac784324e9d8ada8e0673ff7accd5/gunicorn-18.0-py33-none-any.whl#md5=ff4b2fd7abf30125947dfa68f9280375 (from https://pypi.python.org/simple/gunicorn/) because it is not compatible with this Python
+    Found link https://pypi.python.org/packages/06/b2/591ed3ffd25fabbd6f3d48247ee9e4df4011b1a270216bd7eb5e616fb0b3/gunicorn-19.2.0-py2.py3-none-any.whl#md5=31ed07954a7e11c8587a096733ca783d (from https://pypi.python.org/simple/gunicorn/), version: 19.2.0
+    Found link https://pypi.python.org/packages/0c/22/16ecfa515306a7d8b7beaf4bf6cf35077cc0353555f1fb5093af45a899b9/gunicorn-19.4.1.tar.gz#md5=0a800c164260c2bdb9e1c02e4ddd4908 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.1
+    Found link https://pypi.python.org/packages/11/2f/60617b417dec8af359da8322dfecf44b8987c2ce9bf87a618039c33b2351/gunicorn-0.4.2.tar.gz#md5=2351dfe6edeed22f124903ed608559e2 (from https://pypi.python.org/simple/gunicorn/), version: 0.4.2
+    Found link https://pypi.python.org/packages/13/0c/a8560d1781661eb5e2dd48b8258366157eb8c2b9ff1ee34ee96fd2a36282/gunicorn-0.6.4.tar.gz#md5=ed30c24ad5fc2589952818946d3c32a7 (from https://pypi.python.org/simple/gunicorn/), version: 0.6.4
+    Found link https://pypi.python.org/packages/16/58/8355ffd9c3e21622fb4021426a6db46d8e73a7dba4336976c994e24b20ef/gunicorn-0.10.1.tar.gz#md5=78594fed9d1c4b433d625acca588dd04 (from https://pypi.python.org/simple/gunicorn/), version: 0.10.1
+    Found link https://pypi.python.org/packages/18/af/e959432746b30fa67902b81320d57f681da433761ba5def5797ccd31c70f/gunicorn-19.5.0.tar.gz#md5=f990af93705b22e55a1a821b7d53ec16 (from https://pypi.python.org/simple/gunicorn/), version: 19.5.0
+    Found link https://pypi.python.org/packages/1d/06/483e52ee969e515b08bc9ce87e7d0921b0bd3d9e7381e9b810051f0fbcfa/gunicorn-0.4.1.tar.gz#md5=9526f11ae928920428fe0f0c3c3904e8 (from https://pypi.python.org/simple/gunicorn/), version: 0.4.1
+    Found link https://pypi.python.org/packages/1e/67/95248e17050822ab436c8a43dbfc0625a8545775737e33b66508cffad278/gunicorn-19.4.5.tar.gz#md5=ce45c2dccba58784694dd77f23d9a677 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.5
+    Found link https://pypi.python.org/packages/20/4e/3ea714e004ef01a1c552e38566f17071410e3da94b3c00c8c59a66f954d5/gunicorn-0.8.0.tar.gz#md5=c63a0c3aaec164ec8cbb270564a12052 (from https://pypi.python.org/simple/gunicorn/), version: 0.8.0
+    Found link https://pypi.python.org/packages/21/f2/b98bd891e2390afb3474d0c1b23d8386c823086b0a57b21033136aee4b2e/gunicorn-0.14.1.tar.gz#md5=f4fe619c3bfcac7c181d5e341d8c13d5 (from https://pypi.python.org/simple/gunicorn/), version: 0.14.1
+    Found link https://pypi.python.org/packages/2d/50/05b0a67dbdf27adaa4bdc553bd575ff1766b48ad3625035604e9f549eebe/gunicorn-0.6.6.tar.gz#md5=55ca2cca6a6340e07fec303baefc6db5 (from https://pypi.python.org/simple/gunicorn/), version: 0.6.6
+    Found link https://pypi.python.org/packages/32/7d/caed0aed65bad49cfdee8cf1be29b1a97070a0a854c73d45c02a5da7e1b0/gunicorn-0.13.0.tar.gz#md5=62da8750a75b7afc67526805dd65bd8a (from https://pypi.python.org/simple/gunicorn/), version: 0.13.0
+    Found link https://pypi.python.org/packages/32/cd/e441ce3936f6fa1d9f2c59f157e5432ee214289a766fd88d58590b740adb/gunicorn-0.7.2.tar.gz#md5=848140ea20f6214a298768bd5eb19010 (from https://pypi.python.org/simple/gunicorn/), version: 0.7.2
+    Found link https://pypi.python.org/packages/38/fe/993220ae59e28c8c55c9dfc562c675a64235f563c440b7180eb847fe71d4/gunicorn-0.2.1.tar.gz#md5=ef045db826b7ec8c2c6dd32f79970dfe (from https://pypi.python.org/simple/gunicorn/), version: 0.2.1
+    Found link https://pypi.python.org/packages/39/cd/def93e9aa7ba178dade24347debf981c3f622b081c62d66aafd79dc6f6f2/gunicorn-0.6.5.tar.gz#md5=d341fd7ec5fc7ac22b9a35b7b77cf9be (from https://pypi.python.org/simple/gunicorn/), version: 0.6.5
+    Found link https://pypi.python.org/packages/45/17/8ca442b902347f062b4d9c9d8a9a0fc7f928d8ddb57d49227d143a2d658a/gunicorn-0.13.1.tar.gz#md5=aa2b0e432fa072575d86aff317e1b7c2 (from https://pypi.python.org/simple/gunicorn/), version: 0.13.1
+    Found link https://pypi.python.org/packages/46/ba/c586dd3c0a4900547db51ce108ec8c9a880b01e1eaa1db7558999c822f3f/gunicorn-0.17.0.tar.gz#md5=0d4003bcd1a1899cd7ac580e6e4ab4c9 (from https://pypi.python.org/simple/gunicorn/), version: 0.17.0
+    Found link https://pypi.python.org/packages/48/7c/f829b5dc7ccde1d10fa32dea15c212fbef0e37bc779bb9b941a82e57db19/gunicorn-0.6.2.tar.gz#md5=7ead8ca52cf8793df4631349ff29b008 (from https://pypi.python.org/simple/gunicorn/), version: 0.6.2
+    Found link https://pypi.python.org/packages/4c/95/f2b16a4bc905e07902b911610e6b0c1542a4fce947eedb3a4b704cebc384/gunicorn-19.4.3.tar.gz#md5=ff2d8d78e99c956831f4a25b3876d8db (from https://pypi.python.org/simple/gunicorn/), version: 19.4.3
+    Found link https://pypi.python.org/packages/4e/db/d42c78d07b624d7d8be63ef41aff3c5d76c053b689748a21b1eb15b2d8cc/gunicorn-0.16.0.tar.gz#md5=e821dcd1152728513cc868691bad1a45 (from https://pypi.python.org/simple/gunicorn/), version: 0.16.0
+    Found link https://pypi.python.org/packages/4f/53/9ebc1f4584719fabe7adebf55c25258c6ac4fda4b6344d0aad57b88e880e/gunicorn-0.4.tar.gz#md5=a41b9bf5764d4789338851739cc9bed1 (from https://pypi.python.org/simple/gunicorn/), version: 0.4
+    Found link https://pypi.python.org/packages/55/6d/aa4c298ce440fc63fb20a2761ff68a5a707d3f1d13fce885cd58ae375822/gunicorn-0.12.0.tar.gz#md5=8f8dd16676a911ce00e738fc42ea02f3 (from https://pypi.python.org/simple/gunicorn/), version: 0.12.0
+    Found link https://pypi.python.org/packages/5a/60/5e6bb0769854ff772888a9b5ca68c4d84c7737e4df010407a6b476925190/gunicorn-19.4.4-py2.py3-none-any.whl#md5=96e46ea06faac7b49d90cebb4c081afc (from https://pypi.python.org/simple/gunicorn/), version: 19.4.4
+    Found link https://pypi.python.org/packages/64/4a/261c684ec63ff9d17b480d3124b169ca4127c56e279b9f1187b60f029cc2/gunicorn-19.4.4.tar.gz#md5=8e61302dc98e53af6ef968ebf82c53f0 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.4
+    Found link https://pypi.python.org/packages/65/29/af1ccd0a2b16571d1694a84a43e383cc3a9ccd3ac700f335ae7d48bf7b4b/gunicorn-0.11.0.tar.gz#md5=e0120c4fa92d862f339d917d55e70ae7 (from https://pypi.python.org/simple/gunicorn/), version: 0.11.0
+    Found link https://pypi.python.org/packages/65/5d/0158ebbc89e863172efdc798eea79af1e2969582e7cfb42d2e6b52e58705/gunicorn-0.9.1.tar.gz#md5=79220e9949790c3f693a51860696b48c (from https://pypi.python.org/simple/gunicorn/), version: 0.9.1
+    Found link https://pypi.python.org/packages/65/de/51b61a018af8faf350e733306a92b92483cd66d266caf6c003c7f993661f/gunicorn-0.8.1.tar.gz#md5=4b89d8fdf939a7b99ed48ae5b0f201d8 (from https://pypi.python.org/simple/gunicorn/), version: 0.8.1
+    Found link https://pypi.python.org/packages/66/52/f4692236b8e56827613188da51564192b119aa6b422311d043560218e76b/gunicorn-19.2.1-py2.py3-none-any.whl#md5=ee833b8cc0fd834344c825220b1d1738 (from https://pypi.python.org/simple/gunicorn/), version: 19.2.1
+    Found link https://pypi.python.org/packages/66/88/1c703788804e6768a4074b34a74540f7f71849298e1c4cbcab1547487bbd/gunicorn-19.4.0.tar.gz#md5=b9f268b36a945c8f2b4f9d5bfafeabd2 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.0
+    Found link https://pypi.python.org/packages/6a/8e/1c32b90021e29e7a2e37b4cd030508591cf26c46ca21de82fbe351e5a18a/gunicorn-0.17.1.tar.gz#md5=6b244e0822ffc099b0a6b7a17b07d183 (from https://pypi.python.org/simple/gunicorn/), version: 0.17.1
+    Found link https://pypi.python.org/packages/70/85/ba6cb749ba480e7237f6028ccfa2d00d5289ad55977103e46f4bce44da8d/gunicorn-0.17.2.tar.gz#md5=4f4cdd0ad0fd864eb9abd9d6a4ea931e (from https://pypi.python.org/simple/gunicorn/), version: 0.17.2
+    Found link https://pypi.python.org/packages/72/de/ec28a64885e0b390063379cca601b60b1f9e51367e0c76030ac8a5cddd5e/gunicorn-19.6.0-py2.py3-none-any.whl#md5=ab69dff52e2e0bccb25bf1e3a82e1448 (from https://pypi.python.org/simple/gunicorn/), version: 19.6.0
+    Found link https://pypi.python.org/packages/75/7e/267b2ad08f1cf3e26be1bc94f81ae5e3483fbf6ccd43b006d231e6eb3c09/gunicorn-19.4.2.tar.gz#md5=2d7ae95ae16f879f1cb0507873598686 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.2
+    Found link https://pypi.python.org/packages/75/f1/6c56cff1fbb205a3bf81e881910f3fe4c1287eef8b72abe7882f1e56c9fe/gunicorn-19.4.1-py2.py3-none-any.whl#md5=90564140a8cc97526fd166d5f4454004 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.1
+    Found link https://pypi.python.org/packages/76/9f/fd3f1c447bc4a0c93ded0dea74a84a60b6bd3ea8faeb091c49fcb0db9708/gunicorn-0.13.2.tar.gz#md5=24fbd6763b169021c11496eb5627ac3a (from https://pypi.python.org/simple/gunicorn/), version: 0.13.2
+    Found link https://pypi.python.org/packages/79/b0/f80742ffc670565c569a1e197c2d17749442c11bdc01a3b98b4640de9708/gunicorn-0.14.5.tar.gz#md5=a2682d3800291c93780407995426a6b3 (from https://pypi.python.org/simple/gunicorn/), version: 0.14.5
+    Found link https://pypi.python.org/packages/7b/08/7a2fe559c07d434db2b22297ca022b4c8036971f83134c43a56b087ae88c/gunicorn-0.15.0.tar.gz#md5=40808a7dbb4e6f27fd6d0139d95a5c00 (from https://pypi.python.org/simple/gunicorn/), version: 0.15.0
+    Found link https://pypi.python.org/packages/80/1b/25eaf834e05c82233568cdada4a3ea373fd2bc27c447554a98e18def5494/gunicorn-19.3.0-py2.py3-none-any.whl#md5=e19df3b0d07bc2b695f02e10b017b934 (from https://pypi.python.org/simple/gunicorn/), version: 19.3.0
+    Found link https://pypi.python.org/packages/80/22/c740694761ce2e72f50230f028f25597e0c57bb45923e87b043b66d54fd7/gunicorn-0.3.1.tar.gz#md5=571f439d37388719ec4ef98b0fb6cc98 (from https://pypi.python.org/simple/gunicorn/), version: 0.3.1
+    Found link https://pypi.python.org/packages/80/f2/37d30785d3f9ce6dd1786a44f41d05284b40aa926d57262a2da64b26a507/gunicorn-0.13.3.tar.gz#md5=23079e3385a20be75ff3224ce87e7582 (from https://pypi.python.org/simple/gunicorn/), version: 0.13.3
+    Found link https://pypi.python.org/packages/82/bc/07bbb243f84e777cab4f13be68537c36a037ac30909f294636c88f55ed6f/gunicorn-0.7.1.tar.gz#md5=3903366fda9e53a6c41baf92e5b79e85 (from https://pypi.python.org/simple/gunicorn/), version: 0.7.1
+    Found link https://pypi.python.org/packages/84/ce/7ea5396efad1cef682bbc4068e72a0276341d9d9d0f501da609fab9fcb80/gunicorn-19.6.0.tar.gz#md5=338e5e8a83ea0f0625f768dba4597530 (from https://pypi.python.org/simple/gunicorn/), version: 19.6.0
+    Found link https://pypi.python.org/packages/8a/ee/d1c2ddde17917994a338d5f32ad21ce33dfb7d104df6fc72adad0b7d9d3b/gunicorn-0.6.tar.gz#md5=6ea00bf1dbd4812d1673038c0b6c074a (from https://pypi.python.org/simple/gunicorn/), version: 0.6
+    Found link https://pypi.python.org/packages/8f/55/6cb30d671c40d0e4854a0b14456811a5122f1b3afd9558e5c19aa0a44666/gunicorn-0.12.1.tar.gz#md5=6540ec02de8e00b6b60c28a26a019662 (from https://pypi.python.org/simple/gunicorn/), version: 0.12.1
+    Found link https://pypi.python.org/packages/90/29/00807b038c456fb00e8d7d72d6b407ece21185765b094eed2e476505c97e/gunicorn-0.3.tar.gz#md5=ddddcf2dcb676f36e4e4d52e7de8c0b8 (from https://pypi.python.org/simple/gunicorn/), version: 0.3
+    Found link https://pypi.python.org/packages/92/bc/1caa9234f3f8dad6e129cd499525a85c91dc06ea08d778f6600277875acf/gunicorn-0.11.1.tar.gz#md5=1e4b473dbb621e72dd9ac9570ee82fc3 (from https://pypi.python.org/simple/gunicorn/), version: 0.11.1
+    Found link https://pypi.python.org/packages/94/a0/6af15d3f7e8d259e30dfb7077405b8a16f2f1c5e45e842e9e808a30c1f7f/gunicorn-0.17.4.tar.gz#md5=464c1d0ce93c62ce039dc9a9493d26e3 (from https://pypi.python.org/simple/gunicorn/), version: 0.17.4
+    Found link https://pypi.python.org/packages/96/78/84e2711e2d379a1b80596ff7f1fae7c1f5117ad9a30ecf02aeb508d55fcf/gunicorn-19.4.2-py2.py3-none-any.whl#md5=8791a826f461f90d47b0641ecedba026 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.2
+    Found link https://pypi.python.org/packages/98/ab/0cf3ce33b2d05aa50dd8171ae3f0ae63380adf607e5827d43f7fba21a78d/gunicorn-19.2.0.tar.gz#md5=010e23e52324375ed9e2265d6e3be692 (from https://pypi.python.org/simple/gunicorn/), version: 19.2.0
+    Found link https://pypi.python.org/packages/9a/c8/19e724182c4eb65d5960e2cd39bf58e1d2caa71d7c81caafbabaa4a675be/gunicorn-0.6.3.tar.gz#md5=3f818600c0aad44cb69b3ced69086a00 (from https://pypi.python.org/simple/gunicorn/), version: 0.6.3
+    Found link https://pypi.python.org/packages/a4/a3/38185fd83aa3c850090a25d6045560a66dd55569fd9935b5a673748254ab/gunicorn-19.1.0.tar.gz#md5=3d759bec3c46a680ff010775258c4c56 (from https://pypi.python.org/simple/gunicorn/), version: 19.1.0
+    Found link https://pypi.python.org/packages/a4/b5/639c79152fb15b4df5ea8f210f8c3d222e12a17c5d36477174868b375c6f/gunicorn-0.5.tar.gz#md5=e443f9b9325e7d6b58eda898988ef375 (from https://pypi.python.org/simple/gunicorn/), version: 0.5
+    Found link https://pypi.python.org/packages/b0/3d/c476010c920926d2b5b4be0a9a5f5dc0a50c667476ad4737774d44fa7591/gunicorn-19.3.0.tar.gz#md5=faa3e80661efd67e5e06bba32699af20 (from https://pypi.python.org/simple/gunicorn/), version: 19.3.0
+    Found link https://pypi.python.org/packages/b1/f3/559cc64b6901219e112a943c83778f88eb04e41ff3ce748026d2baf8217e/gunicorn-19.4.0-py2.py3-none-any.whl#md5=b0940d3fc87f337af0571576ef9784c1 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.0
+    Found link https://pypi.python.org/packages/bd/35/02afbb70798e4646c39c5521201ea597279b5c9651c71a0c34169bc550bb/gunicorn-0.13.4.tar.gz#md5=e18f3fdaa94ef2dce2f2d53e1f7aaadc (from https://pypi.python.org/simple/gunicorn/), version: 0.13.4
+    Found link https://pypi.python.org/packages/bd/4c/1c4131c6082a9cbad894b308097c9ff2e947f331c54aa2daa8e657108eb8/gunicorn-19.4.5-py2.py3-none-any.whl#md5=7184b9d57eb92d01dd56eb817863a174 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.5
+    Found link https://pypi.python.org/packages/bd/a4/99f85f36f5b96a61460b462559f58de90ca0d00e98779e04f4bb60052ccb/gunicorn-0.16.1.tar.gz#md5=d53d5d04d941f2a3089e814e753a218f (from https://pypi.python.org/simple/gunicorn/), version: 0.16.1
+    Found link https://pypi.python.org/packages/c1/da/521a8cde60e9a76cf8aa1330109ec0484fcfc19c87bfe9197180c6bc3281/gunicorn-0.14.3.tar.gz#md5=32ef55d04ad18215d88fd7481c6a5bcf (from https://pypi.python.org/simple/gunicorn/), version: 0.14.3
+    Found link https://pypi.python.org/packages/c2/d8/1aa25ff3787f062195778c42e1edd66c0a0c046559ed517cdd4b4c89f9cc/gunicorn-0.12.2.tar.gz#md5=acf40832274b01a92a13a20a5c6bdfb2 (from https://pypi.python.org/simple/gunicorn/), version: 0.12.2
+    Found link https://pypi.python.org/packages/cc/8f/82d9d1ae8cd417421f4ccb04bf8a8d75767b324c50bc83a9be9d4122c01a/gunicorn-18.0.tar.gz#md5=c7138b9ac7515a42066922d2b6120fbe (from https://pypi.python.org/simple/gunicorn/), version: 18.0
+    Found link https://pypi.python.org/packages/ce/f0/70b402ce4a1988616a38524554ae6896846c4bad9c4e3e2dd43ead7c0d82/gunicorn-19.0.0.tar.gz#md5=eb40b21ea909621758e5436684dca028 (from https://pypi.python.org/simple/gunicorn/), version: 19.0.0
+    Found link https://pypi.python.org/packages/d0/6e/9f63ea2ec5f02c21d4cb3e8996ac1b12a8432151330244aa6fd2db1ebd9d/gunicorn-0.3.2.tar.gz#md5=6c5fc28dfe4b2b07091d6abc00c1564d (from https://pypi.python.org/simple/gunicorn/), version: 0.3.2
+    Found link https://pypi.python.org/packages/d1/6d/0e713f1f38e30f868558d0bf2dbf92a0bf00802e766b3f82d4925f377906/gunicorn-0.14.6.tar.gz#md5=32ce00116fd3df855987e4f749eab7e5 (from https://pypi.python.org/simple/gunicorn/), version: 0.14.6
+    Found link https://pypi.python.org/packages/dd/c0/b716b1e200d52df65b40b0a096ec3e45a5d50ca13c325533b8968c8d764d/gunicorn-0.9.0.tar.gz#md5=8cd9dccd83dcdbfe78c15386f12aade6 (from https://pypi.python.org/simple/gunicorn/), version: 0.9.0
+    Found link https://pypi.python.org/packages/df/ae/c2cdd886a282df6eeaca90f8719d23eda51e4945ce55556e00b25f4acd2c/gunicorn-19.1.1.tar.gz#md5=eaa72bff5341c05169b76ce3dcbb8140 (from https://pypi.python.org/simple/gunicorn/), version: 19.1.1
+    Found link https://pypi.python.org/packages/e4/c9/de780859167e6ceee255002684c4acefe230fca785c54f4f24eed8e7d36d/gunicorn-0.7.0.tar.gz#md5=c5b9e2a068531c1dcbfff17f27dfe499 (from https://pypi.python.org/simple/gunicorn/), version: 0.7.0
+    Found link https://pypi.python.org/packages/ea/01/4d75cadfe59c7a06d55efb7e452a481e977ac2b08aa0ef86fd53497a846a/gunicorn-0.6.1.tar.gz#md5=d5ea658226b9c9c710d64c4658eb0d1e (from https://pypi.python.org/simple/gunicorn/), version: 0.6.1
+    Found link https://pypi.python.org/packages/eb/61/552eac1e21719bd836f7ec7ee2578beeacabf0ab7d990c615687ca0bc08e/gunicorn-19.2.1.tar.gz#md5=2d643e171dc20e2d182d8b11158d4401 (from https://pypi.python.org/simple/gunicorn/), version: 19.2.1
+    Found link https://pypi.python.org/packages/ec/cf/5deb43f429e0918cfd0ddbc67d42acb8c909925f595cb2fca447df3ba242/gunicorn-0.14.0.tar.gz#md5=95766369e6a95d80e5893395ed6a141b (from https://pypi.python.org/simple/gunicorn/), version: 0.14.0
+    Found link https://pypi.python.org/packages/ed/06/8125f3638181f65e51aa108995bbc61c68ab15f125b44306cfa02e98deee/gunicorn-0.5.1.tar.gz#md5=f83eb85a031615c09a02a6c21674e320 (from https://pypi.python.org/simple/gunicorn/), version: 0.5.1
+    Found link https://pypi.python.org/packages/ed/bd/a106dd33de8ee57cd0a5b20265f4820a9d49980e5e69e24e9013259f3388/gunicorn-0.11.2.tar.gz#md5=8e060350706b362e56dfe1e17ee3522f (from https://pypi.python.org/simple/gunicorn/), version: 0.11.2
+    Found link https://pypi.python.org/packages/ee/aa/ce0f2c1886549459c98ab3628a42f1062d79c84b8eca228308f656a95390/gunicorn-19.1.0-py2.py3-none-any.whl#md5=8afc651fbb8c9b34f633cbe922c7bbc6 (from https://pypi.python.org/simple/gunicorn/), version: 19.1.0
+    Found link https://pypi.python.org/packages/ee/e2/dbe1f12d527b060bc0340b9df47926b9c80d54bca13482b5611d41773e26/gunicorn-19.1.1-py2.py3-none-any.whl#md5=905b2a090447c82bd66e62ee29b2287c (from https://pypi.python.org/simple/gunicorn/), version: 19.1.1
+    Found link https://pypi.python.org/packages/f3/df/d871db77c1bcbe73a03568893124fd6126d030ea0b1af2932fa76e742d0f/gunicorn-0.10.0.tar.gz#md5=8feecd4523abb7245292175b58bc6691 (from https://pypi.python.org/simple/gunicorn/), version: 0.10.0
+    Found link https://pypi.python.org/packages/f6/c5/3a02e970ee3ac66dc8e1b7550c8b95469c6ebe6da6b0b9409cba73203394/gunicorn-0.14.4.tar.gz#md5=22047709629c3ca7741adb76778aeb37 (from https://pypi.python.org/simple/gunicorn/), version: 0.14.4
+    Found link https://pypi.python.org/packages/f8/d0/262260f57e553b37e7a0ef50045b1a10876d2f83d94530c83a31b4cac372/gunicorn-19.4.3-py2.py3-none-any.whl#md5=5b384458029a111c469509d20aeefc08 (from https://pypi.python.org/simple/gunicorn/), version: 19.4.3
+    Found link https://pypi.python.org/packages/f9/4e/f4076a1a57fc1e75edc0828db365cfa9005f9f6b4a51b489ae39a91eb4be/gunicorn-19.5.0-py2.py3-none-any.whl#md5=76da3a755d0c4a2fc6bfc674445c105e (from https://pypi.python.org/simple/gunicorn/), version: 19.5.0
+    Found link https://pypi.python.org/packages/ff/2d/34a4aa743ed8d7e9936d6312f34fecceb03e9d1d80fc0597c2d2d4307e80/gunicorn-0.1.tar.gz#md5=0500f5cd50c30202081f0bff03f14c7a (from https://pypi.python.org/simple/gunicorn/), version: 0.1
+    Found link https://pypi.python.org/packages/ff/7d/7cda70478b277a72734cc493b5727c21b7158e8d79bdef51ecdc01807c6a/gunicorn-0.2.tar.gz#md5=f7c4322773d7e39975f220a1bc7755da (from https://pypi.python.org/simple/gunicorn/), version: 0.2
+    Found link https://pypi.python.org/packages/ff/e6/bccaba00c8f2ed62be517fd6d335da78fc66193a876a01abd34ed7d10af3/gunicorn-0.14.2.tar.gz#md5=5e2f8f5c0892f3ff3813fe66bd46a754 (from https://pypi.python.org/simple/gunicorn/), version: 0.14.2
+  Using version 19.6.0 (newest of versions: 19.6.0, 19.6.0, 19.5.0, 19.5.0, 19.4.5, 19.4.5, 19.4.4, 19.4.4, 19.4.3, 19.4.3, 19.4.2, 19.4.2, 19.4.1, 19.4.1, 19.4.0, 19.4.0, 19.3.0, 19.3.0, 19.2.1, 19.2.1, 19.2.0, 19.2.0, 19.1.1, 19.1.1, 19.1.0, 19.1.0, 19.0.0, 18.0, 17.5, 0.17.4, 0.17.3, 0.17.2, 0.17.1, 0.17.0, 0.16.1, 0.16.0, 0.15.0, 0.14.6, 0.14.5, 0.14.4, 0.14.3, 0.14.2, 0.14.1, 0.14.0, 0.13.4, 0.13.3, 0.13.2, 0.13.1, 0.13.0, 0.12.2, 0.12.1, 0.12.0, 0.11.2, 0.11.1, 0.11.0, 0.10.1, 0.10.0, 0.9.1, 0.9.0, 0.8.1, 0.8.0, 0.7.2, 0.7.1, 0.7.0, 0.6.6, 0.6.5, 0.6.4, 0.6.3, 0.6.2, 0.6.1, 0.6, 0.5.1, 0.5, 0.4.2, 0.4.1, 0.4, 0.3.2, 0.3.1, 0.3, 0.2.1, 0.2, 0.1)
+  Downloading from URL https://pypi.python.org/packages/72/de/ec28a64885e0b390063379cca601b60b1f9e51367e0c76030ac8a5cddd5e/gunicorn-19.6.0-py2.py3-none-any.whl#md5=ab69dff52e2e0bccb25bf1e3a82e1448 (from https://pypi.python.org/simple/gunicorn/)
+Downloading/unpacking dj-database-url (from django-toolbelt)
+  Getting page https://pypi.python.org/simple/dj-database-url/
+  URLs to search for versions for dj-database-url (from django-toolbelt):
+  * https://pypi.python.org/simple/dj-database-url/
+  Analyzing links from page https://pypi.python.org/simple/dj-database-url/
+    Found link https://pypi.python.org/packages/04/89/29cdbc86a0890a4f1e46b6f4bb9b7959e461e0202f6a305bd8b586cc1404/dj-database-url-0.1.2.tar.gz#md5=8b285dba950c9ca6e3f6082be64b2faf (from https://pypi.python.org/simple/dj-database-url/), version: 0.1.2
+    Found link https://pypi.python.org/packages/19/11/2867ccdaa0203ed14d9f725b26b6dd3264c4209a16d5bf0096597ecf9a7a/dj-database-url-0.2.2.tar.gz#md5=ca96735f7e068a3e3414d3167122f927 (from https://pypi.python.org/simple/dj-database-url/), version: 0.2.2
+    Found link https://pypi.python.org/packages/39/9f/30f937db9f9e7a4e4e3205682af4c34c65d647ff9850897ddfbbf5dc6178/dj-database-url-0.4.1.tar.gz#md5=c2c54d15d49c9b1a65908c3676c64a51 (from https://pypi.python.org/simple/dj-database-url/), version: 0.4.1
+    Found link https://pypi.python.org/packages/3e/78/c18103be8b9f06a3cb9ee93adb63f91c16f8c8781c8abb0e5b06acef7106/dj-database-url-0.1.4.tar.gz#md5=ee1f46a6b0ca3329e6701b5578b2aee6 (from https://pypi.python.org/simple/dj-database-url/), version: 0.1.4
+    Found link https://pypi.python.org/packages/64/d9/99774e3f66683ded1d3aa3f66045f671cefc0b550aca4ccfeaeeed4e074a/dj-database-url-0.4.0.tar.gz#md5=e202f0d0cef45f1721e993e3cb7f23c4 (from https://pypi.python.org/simple/dj-database-url/), version: 0.4.0
+    Found link https://pypi.python.org/packages/a6/94/72572715f45dd132ddc1e26aa4e8c2b13395759386a541e7f00124ceda11/dj-database-url-0.2.1.tar.gz#md5=63ad283bb5931e8d3842e5b9edd7a1fd (from https://pypi.python.org/simple/dj-database-url/), version: 0.2.1
+    Found link https://pypi.python.org/packages/bd/80/f8430a065c09367cd766cdea08f80d11b625944a653f96c2bd02d183355b/dj-database-url-0.1.3.tar.gz#md5=175111400fee7c1f6ce4a4829c8b26ee (from https://pypi.python.org/simple/dj-database-url/), version: 0.1.3
+    Found link https://pypi.python.org/packages/d6/cb/ab7fc10ea1e3571c34bcd74c3b3090e2d3c378d01ad79550fc967cd84114/dj-database-url-0.2.0.tar.gz#md5=faaf1e1f06f738f72ef964696c46e379 (from https://pypi.python.org/simple/dj-database-url/), version: 0.2.0
+    Found link https://pypi.python.org/packages/e1/0e/2cceb7afb13cf784e385928530af59b49dd1524a76323e293f18ea28a6de/dj-database-url-0.3.0.tar.gz#md5=28f89d403b565ee62dc25582852ae241 (from https://pypi.python.org/simple/dj-database-url/), version: 0.3.0
+    Found link https://pypi.python.org/packages/ef/b6/9283fcf61ced22bf90e7b4a84ba5b53d126b2c9b0dc9b667347698097026/dj_database_url-0.3.0-py2.py3-none-any.whl#md5=58211401b11c49ba27deca8183c3061d (from https://pypi.python.org/simple/dj-database-url/), version: 0.3.0
+  Using version 0.4.1 (newest of versions: 0.4.1, 0.4.0, 0.3.0, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.4, 0.1.3, 0.1.2)
+  Downloading dj-database-url-0.4.1.tar.gz
+  Downloading from URL https://pypi.python.org/packages/39/9f/30f937db9f9e7a4e4e3205682af4c34c65d647ff9850897ddfbbf5dc6178/dj-database-url-0.4.1.tar.gz#md5=c2c54d15d49c9b1a65908c3676c64a51 (from https://pypi.python.org/simple/dj-database-url/)
+  Running setup.py (path:/tmp/pip_build_root/dj-database-url/setup.py) egg_info for package dj-database-url
+    running egg_info
+    creating pip-egg-info/dj_database_url.egg-info
+    writing pip-egg-info/dj_database_url.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/dj_database_url.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/dj_database_url.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/dj_database_url.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/dj_database_url.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/dj_database_url.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_root/dj-database-url has version 0.4.1, which satisfies requirement dj-database-url (from django-toolbelt)
+Downloading/unpacking dj-static (from django-toolbelt)
+  Getting page https://pypi.python.org/simple/dj-static/
+  URLs to search for versions for dj-static (from django-toolbelt):
+  * https://pypi.python.org/simple/dj-static/
+  Analyzing links from page https://pypi.python.org/simple/dj-static/
+    Found link https://pypi.python.org/packages/0d/2c/19e9aa1460398553ac26d8cbc7bb73056b2cfe4b28eb3506f06ea7bcd029/dj-static-0.0.3.tar.gz#md5=84ada414a37e02bba78e20745deb3c8a (from https://pypi.python.org/simple/dj-static/), version: 0.0.3
+    Found link https://pypi.python.org/packages/16/97/3c61f4e78f9608afa65019deffeaf814bb3cd88ed3da89a9d37bd652bcd2/dj-static-0.0.5.tar.gz#md5=59f26443a5293483c8f497b03bc6deca (from https://pypi.python.org/simple/dj-static/), version: 0.0.5
+    Found link https://pypi.python.org/packages/2b/8f/77a4b8ec50c821193bf9682c7896f12fd0418eb3711a7d66796ede59c23b/dj-static-0.0.6.tar.gz#md5=078c4d5a455b7811173ffdb0cb33ed0f (from https://pypi.python.org/simple/dj-static/), version: 0.0.6
+    Found link https://pypi.python.org/packages/58/26/ccb2ab989247213d5c5f11aa78e85ef8673b53ecd688882dda13f1d049d7/dj-static-0.0.1.tar.gz#md5=97e988fb4fa6544b059a48ac571729eb (from https://pypi.python.org/simple/dj-static/), version: 0.0.1
+    Found link https://pypi.python.org/packages/7f/21/e96719dfcd65c506bbc222b31f8ec90afaea7f6e4003f1194229fcd86d69/dj-static-0.0.2.tar.gz#md5=1227db87101fde15b71a8c0e6777ad49 (from https://pypi.python.org/simple/dj-static/), version: 0.0.2
+    Found link https://pypi.python.org/packages/a2/b9/f8f3faca01d8079dea3fb8f609bf0f4bfc216055dacd6ca909d5fc3ae9c9/dj-static-0.0.4.tar.gz#md5=cbce42f3c460ff638948896536cfe76f (from https://pypi.python.org/simple/dj-static/), version: 0.0.4
+  Using version 0.0.6 (newest of versions: 0.0.6, 0.0.5, 0.0.4, 0.0.3, 0.0.2, 0.0.1)
+  Downloading dj-static-0.0.6.tar.gz
+  Downloading from URL https://pypi.python.org/packages/2b/8f/77a4b8ec50c821193bf9682c7896f12fd0418eb3711a7d66796ede59c23b/dj-static-0.0.6.tar.gz#md5=078c4d5a455b7811173ffdb0cb33ed0f (from https://pypi.python.org/simple/dj-static/)
+  Running setup.py (path:/tmp/pip_build_root/dj-static/setup.py) egg_info for package dj-static
+    running egg_info
+    creating pip-egg-info/dj_static.egg-info
+    writing requirements to pip-egg-info/dj_static.egg-info/requires.txt
+    writing pip-egg-info/dj_static.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/dj_static.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/dj_static.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/dj_static.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/dj_static.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/dj_static.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_root/dj-static has version 0.0.6, which satisfies requirement dj-static (from django-toolbelt)
+Downloading/unpacking static3 (from dj-static->django-toolbelt)
+  Getting page https://pypi.python.org/simple/static3/
+  URLs to search for versions for static3 (from dj-static->django-toolbelt):
+  * https://pypi.python.org/simple/static3/
+  Analyzing links from page https://pypi.python.org/simple/static3/
+    Found link https://pypi.python.org/packages/4b/0b/23ad258c78c61ddd032c98dd0d838ade2f82a4aa8fcf6e33f01619325ad4/static3-0.6.1.tar.gz#md5=b6a6c1c8af01c5682a8acae1a28334da (from https://pypi.python.org/simple/static3/), version: 0.6.1
+    Found link https://pypi.python.org/packages/65/69/6a0de32a6a7922f1886cdcf79d09c5107b7ae12cd6641a7d5412f3807af9/static3-0.5.1.tar.gz#md5=4b4dc6707c8d975617498f2d7344f48d (from https://pypi.python.org/simple/static3/), version: 0.5.1
+    Found link https://pypi.python.org/packages/6a/83/26bd2fd65954a8533e67701519d928e064cd603ad76ccf487304f7370023/static3-0.6.0.tar.gz#md5=afea20d5d40d0c1259af2e4927c55e00 (from https://pypi.python.org/simple/static3/), version: 0.6.0
+    Found link https://pypi.python.org/packages/7c/93/88a7d5cf9f4849e9a743faf5cf7d6b37796d7718cb9617eabaec4e932498/static3-0.5.tar.gz#md5=57313f4136431e00d6a0f0127f1989f7 (from https://pypi.python.org/simple/static3/), version: 0.5
+    Found link https://pypi.python.org/packages/87/b0/9cf15108b73c4f2ffffe11d237c938f57785f55d3693d822d565432cb680/static3-0.7.0.tar.gz#md5=12f80b8a2528fffd8df4d9c438dc02e8 (from https://pypi.python.org/simple/static3/), version: 0.7.0
+    Found link https://pypi.python.org/packages/d5/f8/6ec9f2609b88d2552987715ab85bd2f0277c584e50624594875cc1d2b4f2/static3-0.6.2.tar.gz#md5=8a7fecfaa0e10703ca2b6a08874b7fcf (from https://pypi.python.org/simple/static3/), version: 0.6.2
+  Using version 0.7.0 (newest of versions: 0.7.0, 0.6.2, 0.6.1, 0.6.0, 0.5.1, 0.5)
+  Downloading static3-0.7.0.tar.gz
+  Downloading from URL https://pypi.python.org/packages/87/b0/9cf15108b73c4f2ffffe11d237c938f57785f55d3693d822d565432cb680/static3-0.7.0.tar.gz#md5=12f80b8a2528fffd8df4d9c438dc02e8 (from https://pypi.python.org/simple/static3/)
+  Running setup.py (path:/tmp/pip_build_root/static3/setup.py) egg_info for package static3
+    running egg_info
+    creating pip-egg-info/static3.egg-info
+    writing requirements to pip-egg-info/static3.egg-info/requires.txt
+    writing pip-egg-info/static3.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/static3.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/static3.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/static3.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/static3.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/static3.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/static3.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_root/static3 has version 0.7.0, which satisfies requirement static3 (from dj-static->django-toolbelt)
+  skipping extra genshimagic
+  skipping extra kidmagic
+Installing collected packages: django-toolbelt, psycopg2, gunicorn, dj-database-url, dj-static, static3
+  Running setup.py install for django-toolbelt
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/django-toolbelt/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-jkDc1f-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running install_egg_info
+    running egg_info
+    writing requirements to django_toolbelt.egg-info/requires.txt
+    writing django_toolbelt.egg-info/PKG-INFO
+    writing top-level names to django_toolbelt.egg-info/top_level.txt
+    writing dependency_links to django_toolbelt.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'django_toolbelt.egg-info/SOURCES.txt'
+    writing manifest file 'django_toolbelt.egg-info/SOURCES.txt'
+    Copying django_toolbelt.egg-info to /usr/local/lib/python2.7/dist-packages/django_toolbelt-0.0.1.egg-info
+    running install_scripts
+    writing list of installed files to '/tmp/pip-jkDc1f-record/install-record.txt'
+  Running setup.py install for psycopg2
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MJbnvD-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/_json.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/errorcodes.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/extensions.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/_range.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/extras.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/psycopg1.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/tz.py -> build/lib.linux-x86_64-2.7/psycopg2
+    copying lib/pool.py -> build/lib.linux-x86_64-2.7/psycopg2
+    creating build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_cancel.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_connection.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_dates.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_cursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_quote.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/testutils.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_types_basic.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_notify.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_lobject.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_with.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_extras_dictcursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_types_extras.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/dbapi20_tpc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_bugX000.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/testconfig.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_errcodes.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_async.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_module.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_green.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_copy.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_transaction.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_psycopg2_dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    copying tests/test_bug_gc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+    running build_ext
+    building 'psycopg2._psycopg' extension
+    creating build/temp.linux-x86_64-2.7
+    creating build/temp.linux-x86_64-2.7/psycopg
+    x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.6.2 (dt dec pq3 ext lo64)" -DPG_VERSION_HEX=0x09030E -DHAVE_LO64=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/psycopgmodule.c -o build/temp.linux-x86_64-2.7/psycopg/psycopgmodule.o -Wdeclaration-after-statement
+    In file included from psycopg/psycopgmodule.c:27:0:
+    ./psycopg/psycopg.h:30:20: fatal error: Python.h: No such file or directory
+     #include <Python.h>
+                        ^
+    compilation terminated.
+    error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MJbnvD-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/_json.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/errorcodes.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/extensions.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/_range.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/extras.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/psycopg1.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/tz.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+copying lib/pool.py -> build/lib.linux-x86_64-2.7/psycopg2
+
+creating build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_cancel.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_connection.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_dates.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_cursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_quote.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/testutils.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_types_basic.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_notify.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_lobject.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_with.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_extras_dictcursor.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_types_extras.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/__init__.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/dbapi20_tpc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_bugX000.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/testconfig.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_errcodes.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_async.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_module.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_green.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_copy.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_transaction.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_psycopg2_dbapi20.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+copying tests/test_bug_gc.py -> build/lib.linux-x86_64-2.7/psycopg2/tests
+
+running build_ext
+
+building 'psycopg2._psycopg' extension
+
+creating build/temp.linux-x86_64-2.7
+
+creating build/temp.linux-x86_64-2.7/psycopg
+
+x86_64-linux-gnu-gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fPIC -DPSYCOPG_DEFAULT_PYDATETIME=1 -DPSYCOPG_VERSION="2.6.2 (dt dec pq3 ext lo64)" -DPG_VERSION_HEX=0x09030E -DHAVE_LO64=1 -I/usr/include/python2.7 -I. -I/usr/include/postgresql -I/usr/include/postgresql/9.3/server -c psycopg/psycopgmodule.c -o build/temp.linux-x86_64-2.7/psycopg/psycopgmodule.o -Wdeclaration-after-statement
+
+In file included from psycopg/psycopgmodule.c:27:0:
+
+./psycopg/psycopg.h:30:20: fatal error: Python.h: No such file or directory
+
+ #include <Python.h>
+
+                    ^
+
+compilation terminated.
+
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_root...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MJbnvD-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_root/psycopg2
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 283, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 707, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 715, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_root/psycopg2/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-MJbnvD-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_root/psycopg2
